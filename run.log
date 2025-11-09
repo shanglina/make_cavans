@@ -1,79 +1,22 @@
 🚀 启动：加载配置完成
-{"root_dir": "../pre_yinhua_oneclick/_out/20251009/out/images", "qty_table": "../pre_yinhua_oneclick/_out/20251009/out/finded_handles.xlsx", "dpi": 300, "canvas_w_cm": 58.0, "margin_mm": 8.0, "gutter_mm(pack)": 8.0, "allow_rotate": true, "preview_w_px": 300, "preview_gutter_mm": 2.0, "pack_scale": 1.0, "random_restarts": 10, "height_search_iters": 12, "strategies": ["area_desc", "maxside_desc", "height_desc", "width_desc", "shortside_desc", "name", "none"], "try_no_rotate": true, "fixed_orient_by_image": true, "fixed_lock_rotate": true, "has_maxrects_baf": true}
-📏 画布：58.0cm → 6850px @ 300DPI; margin=8.0mm; gutter(pack)=8.0mm(94px)
-🧾 数量表键列使用：Handle（候选顺序：Handle » SKU » 其他别名）
-🔍 数量表预览前8：[{'sku': 'ce00199', 'size_key': 'h22', 'count': 1}, {'sku': 'ne00152', 'size_key': 'w18', 'count': 1}, {'sku': 'ne00405', 'size_key': 'h22', 'count': 1}, {'sku': 'ne00433', 'size_key': 'w20', 'count': 10}, {'sku': 'ne00436', 'size_key': 'w20', 'count': 5}, {'sku': 'ne00442', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00450', 'size_key': 'w20', 'count': 1}, {'sku': 'ne25042802', 'size_key': 'w20', 'count': 1}]
-📄 数量表：34 行（sku+size 聚合），count 总和 = 52
+{"base_root": "../find_mask/_out", "base_qty": "../find_mask/_out", "resolved_date": "20251109", "root_dir": "../find_mask/_out/20251109/out/images", "qty_table": "../find_mask/_out/20251109/out/finded_handles.xlsx", "dpi": 300, "canvas_w_cm": 58.0, "margin_mm": 2.0, "gutter_mm(pack)": 2.0, "allow_rotate": true, "preview_w_px": 300, "preview_gutter_mm": 2.0, "random_restarts": 10, "height_search_iters": 12, "strategies": ["area_desc", "maxside_desc", "height_desc", "width_desc", "shortside_desc", "name", "none"], "try_no_rotate": true, "shrink_scales": [1.0, 0.98, 0.97, 0.96]}
+📏 画布：58.0cm → 6850px @ 300DPI; margin=2.0mm; gutter(pack)=2.0mm(24px)
+🧾 正在读取数量表文件: ../find_mask/_out/20251109/out/finded_handles.xlsx (suffix='.xlsx')
+🧾 数量表键列使用：Handle（候选顺序：Handle » SKU » 其他别名，当前选择=handle）
+🔍 数量表预览前8：[{'sku': 'ne00310', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00310-1', 'size_key': '13*5', 'count': 1}, {'sku': 'ne00448', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00448', 'size_key': 'w34', 'count': 1}, {'sku': 'ne00450', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00518', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00518', 'size_key': 'w34', 'count': 1}, {'sku': 'ne00630', 'size_key': 'w20', 'count': 1}]
+📄 数量表：49 行（sku+size 聚合），count 总和 = 68
 
 📂 目录: 13*5 → 规范=13*5 模式=fixed w=13.0 h=5.0
-    ↪ 固定尺寸定向：13*5  原比=5.5248  候选比(WxH=2.5973, HxW=0.3850) → 选择 WxH  误差(0.5299/0.9303)
-  ✅ NE25061902-1  size=13*5  count=1  target=1535x591px (13×5cm) (lock-orient)
+    ↪ 固定尺寸定向：13*5  原比=4.2991  候选比(WxH=2.5973, HxW=0.3850) → 选择 WxH  误差(1.7018/3.9140)
+  ✅ NE00310-1  size=13*5  count=1  target=1535x591px (13×5cm)
+
+📂 目录: h20 → 规范=h20 模式=h w=None h=20.0
+  ✅ NE2504180131  size=h20  count=1  target=1991x2362px (16.9×20cm)
 
 📂 目录: h22 → 规范=h22 模式=h w=None h=22.0
-  ✅ CE00199  size=h22  count=1  target=1926x2598px (16.3×22cm) 
-  ✅ NE00405  size=h22  count=1  target=1973x2598px (16.7×22cm) 
-  ✅ NE250623017  size=h22  count=1  target=1980x2598px (16.8×22cm) 
-  ✅ NE25071102  size=h22  count=1  target=2252x2598px (19.1×22cm) 
-  ✅ NE25071702  size=h22  count=1  target=1785x2598px (15.1×22cm) 
-  ✅ NE25071716  size=h22  count=1  target=2334x2598px (19.8×22cm) 
-  ✅ NE250901018  size=h22  count=1  target=1741x2598px (14.7×22cm) 
+  ✅ NE250623010  size=h22  count=1  target=1880x2598px (15.9×22cm)
+  ✅ NE25062436  size=h22  count=1  target=2225x2598px (18.8×22cm)
+  ✅ NE250901011  size=h22  count=1  target=2068x2598px (17.5×22cm)
 
-📂 目录: h25 → 规范=h25 模式=h w=None h=25.0
-  ✅ NE25071737  size=h25  count=1  target=2501x2953px (21.2×25cm) 
-
-📂 目录: w18 → 规范=w18 模式=w w=18.0 h=None
-  ✅ NE00152  size=w18  count=1  target=2126x2544px (18×21.5cm) 
-  ✅ NE250902009  size=w18  count=1  target=2126x2370px (18×20.1cm) 
-  ✅ NE250902017  size=w18  count=1  target=2126x2345px (18×19.9cm) 
-
-📂 目录: w20 → 规范=w20 模式=w w=20.0 h=None
-  ✅ NE00433  size=w20  count=10  target=2362x2390px (20×20.2cm) 
-  ✅ NE00436  size=w20  count=5  target=2362x2443px (20×20.7cm) 
-  ✅ NE00442  size=w20  count=1  target=2362x1722px (20×14.6cm) 
-  ✅ NE00450  size=w20  count=1  target=2362x2059px (20×17.4cm) 
-  ✅ NE25042802  size=w20  count=1  target=2362x2590px (20×21.9cm) 
-  ✅ NE25042803  size=w20  count=1  target=2362x3066px (20×26cm) 
-  ✅ NE25042818  size=w20  count=1  target=2362x2878px (20×24.4cm) 
-  ✅ NE25061902  size=w20  count=1  target=2362x2544px (20×21.5cm) 
-  ✅ NE25062419  size=w20  count=2  target=2362x2407px (20×20.4cm) 
-  ✅ NE25071149  size=w20  count=1  target=2362x2407px (20×20.4cm) 
-  ✅ NE25071733  size=w20  count=1  target=2362x2461px (20×20.8cm) 
-  ✅ NE25080401  size=w20  count=1  target=2362x2619px (20×22.2cm) 
-  ✅ NE250827024  size=w20  count=1  target=2362x2671px (20×22.6cm) 
-  ✅ NE250827034  size=w20  count=1  target=2362x2115px (20×17.9cm) 
-  ✅ NE250901012  size=w20  count=1  target=2362x2325px (20×19.7cm) 
-  ✅ NE250901027  size=w20  count=1  target=2362x2275px (20×19.3cm) 
-  ✅ NE250902033  size=w20  count=4  target=2362x1761px (20×14.9cm) 
-  ✅ NE250902038  size=w20  count=2  target=2362x1749px (20×14.8cm) 
-  ✅ NE250902050  size=w20  count=1  target=2362x1913px (20×16.2cm) 
-  ✅ NE250902061  size=w20  count=1  target=2362x1784px (20×15.1cm) 
-  ✅ NE250902062  size=w20  count=1  target=2362x2174px (20×18.4cm) 
-
-📂 目录: w25 → 规范=w25 模式=w w=25.0 h=None
-  ✅ NE25071736  size=w25  count=1  target=2953x3622px (25×30.7cm) 
-🔎 高度搜索区间：LB=45864px  UB0=58418px  scale=1.0
-  ❌ mid=52141 FAIL → lo=52142
-  ❌ mid=55280 FAIL → lo=55281
-  ❌ mid=56849 FAIL → lo=56850
-  ❌ mid=57634 FAIL → lo=57635
-  ✅ mid=58026 OK → hi=58026 | rot/maxrects-BSSF/area_desc | util≈70.74%
-  ❌ mid=57830 FAIL → lo=57831
-  ✅ mid=57928 OK → hi=57928 | rot/maxrects-BSSF/area_desc | util≈70.86%
-  ✅ mid=57879 OK → hi=57879 | rot/maxrects-BSSF/area_desc | util≈70.92%
-  ✅ mid=57855 OK → hi=57855 | rot/maxrects-BSSF/area_desc | util≈70.95%
-  ❌ mid=57843 FAIL → lo=57844
-  ❌ mid=57849 FAIL → lo=57850
-  ✅ mid=57852 OK → hi=57852 | rot/maxrects-BSSF/area_desc | util≈70.95%
-
-🧩 大画布最优：H=57852px  利用率≈70.95%  策略=rot/maxrects-BSSF/area_desc  旋转=True  scale=1.0
-    高度区间：LB=45864  UB0=58418
-  ✅ 大画布 TIFF：../pre_yinhua_oneclick/_out/20251009/out/images/_all_sizes_out/big_packed_transparent.tif
-  ✅ 标注预览 PNG（按 SKU 分组）：../pre_yinhua_oneclick/_out/20251009/out/images/_all_sizes_out/big_preview_grouped.png  (H=1661px，流式)
-
-===== 数量对比（严格核对）=====
-表格 count 总和: 52
-磁盘可命中数量: 52
-实际装箱数量  : 52
-✅ 数量一致（表格总数 = 磁盘可命中 = 实际装箱）
-
-✅ 全部完成
+📂 目录: h26 → 规范=h26 模式=h w=None h=26.0
+  ✅ NE25040603  size=h26  count=1  target=2600x3071px (22×26cm)

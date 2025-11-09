@@ -1,0 +1,88 @@
+🚀 启动 Row-Fill：加载配置完成
+{"root_dir": "/Users/lina/respository/find_mask/_out/20251108/out/images", "qty_table": "/Users/lina/respository/find_mask/_out/20251108/out/finded_handles.xlsx", "dpi": 300, "canvas_w_cm": 58.0, "margin_mm": 8.0, "gutter_mm(pack)": 8.0, "allow_rotate": true, "preview_w_px": 300, "preview_gutter_mm": 2.0, "auto_height_partition": true, "height_partition_count": 3}
+📏 画布：58.0cm → 6850px @ 300DPI; margin=8.0mm; gutter(pack)=8.0mm(94px)
+🧾 数量表键列使用：Handle（候选顺序：Handle » SKU » 其他别名）
+🔍 数量表预览前8：[{'sku': 'ne00310', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00310-1', 'size_key': '13*5', 'count': 1}, {'sku': 'ne00448', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00448', 'size_key': 'w34', 'count': 1}, {'sku': 'ne00450', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00518', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00518', 'size_key': 'w34', 'count': 1}, {'sku': 'ne00630', 'size_key': 'w20', 'count': 1}]
+📄 数量表：49 行（sku+size 聚合），count 总和 = 68
+
+📂 目录: 13*5 → 规范=13*5 模式=fixed w=13.0 h=5.0
+    ↪ 固定尺寸定向：13*5  原比=4.2991  候选比(WxH=2.5973, HxW=0.3850) → 选择 WxH  误差(0.3958/0.9104)
+  ✅ NE00310-1  size=13*5  count=1  target=1535x591px (13×5cm)
+
+📂 目录: h20 → 规范=h20 模式=h w=None h=20.0
+  ✅ NE2504180131  size=h20  count=1  target=1991x2362px (16.9×20cm)
+
+📂 目录: h22 → 规范=h22 模式=h w=None h=22.0
+  ✅ NE250623010  size=h22  count=1  target=1880x2598px (15.9×22cm)
+  ✅ NE25062436  size=h22  count=1  target=2225x2598px (18.8×22cm)
+  ✅ NE250901011  size=h22  count=1  target=2068x2598px (17.5×22cm)
+
+📂 目录: h26 → 规范=h26 模式=h w=None h=26.0
+  ✅ NE25040603  size=h26  count=1  target=2600x3071px (22×26cm)
+  ✅ NE25040608  size=h26  count=1  target=2923x3071px (24.7×26cm)
+  ✅ NE25071706  size=h26  count=1  target=2216x3071px (18.8×26cm)
+
+📂 目录: h34 → 规范=h34 模式=h w=None h=34.0
+  ✅ NE25040603  size=h34  count=1  target=3401x4016px (28.8×34cm)
+  ✅ NE25040608  size=h34  count=1  target=3823x4016px (32.4×34cm)
+  ✅ NE25062407  size=h34  count=2  target=2716x4016px (23×34cm)
+
+📂 目录: w20 → 规范=w20 模式=w w=20.0 h=None
+  ✅ NE00310  size=w20  count=1  target=2362x1655px (20×14cm)
+  ✅ NE00448  size=w20  count=1  target=2362x2512px (20×21.3cm)
+  ✅ NE00450  size=w20  count=1  target=2362x2059px (20×17.4cm)
+  ✅ NE00518  size=w20  count=1  target=2362x2405px (20×20.4cm)
+  ✅ NE00630  size=w20  count=1  target=2362x2558px (20×21.7cm)
+  ✅ NE00667  size=w20  count=1  target=2362x1252px (20×10.6cm)
+  ✅ NE250623026  size=w20  count=2  target=2362x2795px (20×23.7cm)
+  ✅ NE25071704  size=w20  count=1  target=2362x2489px (20×21.1cm)
+  ✅ NE25071719  size=w20  count=5  target=2362x2731px (20×23.1cm)
+  ✅ NE25071721  size=w20  count=1  target=2362x2341px (20×19.8cm)
+  ✅ NE25071726  size=w20  count=1  target=2362x2802px (20×23.7cm)
+  ✅ NE2508070115  size=w20  count=1  target=2362x2345px (20×19.9cm)
+  ✅ NE2508070126  size=w20  count=1  target=2362x2468px (20×20.9cm)
+  ✅ NE25080708  size=w20  count=1  target=2362x1323px (20×11.2cm)
+  ✅ NE250827007  size=w20  count=1  target=2362x2363px (20×20cm)
+  ✅ NE250827009  size=w20  count=1  target=2362x2243px (20×19cm)
+  ✅ NE250827105  size=w20  count=1  target=2362x1994px (20×16.9cm)
+  ✅ NE250902014  size=w20  count=1  target=2362x2659px (20×22.5cm)
+  ✅ NE250902016  size=w20  count=1  target=2362x2651px (20×22.4cm)
+  ✅ NE250902022  size=w20  count=4  target=2362x2558px (20×21.7cm)
+  ✅ NE250902033  size=w20  count=6  target=2362x1761px (20×14.9cm)
+  ✅ NE250902037  size=w20  count=2  target=2362x1360px (20×11.5cm)
+  ✅ NE250902040  size=w20  count=2  target=2362x1763px (20×14.9cm)
+  ✅ NE250902045  size=w20  count=3  target=2362x2530px (20×21.4cm)
+  ✅ NE250902050  size=w20  count=1  target=2362x1913px (20×16.2cm)
+  ✅ NE250902055  size=w20  count=1  target=2362x2321px (20×19.7cm)
+  ✅ NE250902059  size=w20  count=2  target=2362x1737px (20×14.7cm)
+  ✅ NE250902062  size=w20  count=1  target=2362x2174px (20×18.4cm)
+
+📂 目录: w22 → 规范=w22 模式=w w=22.0 h=None
+  ✅ NE25071708  size=w22  count=1  target=2598x2183px (22×18.5cm)
+  ✅ NE25071729  size=w22  count=1  target=2598x3372px (22×28.5cm)
+  ✅ NE25071731  size=w22  count=1  target=2598x2415px (22×20.4cm)
+  ✅ NE250901022  size=w22  count=1  target=2598x2579px (22×21.8cm)
+
+📂 目录: w25 → 规范=w25 模式=w w=25.0 h=None
+  ✅ NE25071722  size=w25  count=1  target=2953x3238px (25×27.4cm)
+  ✅ NE25071742  size=w25  count=1  target=2953x2913px (25×24.7cm)
+
+📂 目录: w34 → 规范=w34 模式=w w=34.0 h=None
+  ✅ NE00448  size=w34  count=1  target=4016x4271px (34×36.2cm)
+  ✅ NE00518  size=w34  count=1  target=4016x4088px (34×34.6cm)
+  ✅ NE25040607  size=w34  count=1  target=4016x3225px (34×27.3cm)
+  ✅ NE2508070115  size=w34  count=1  target=4016x3987px (34×33.8cm)
+📊 高度分层：共 3 层，阈值(cm) ≈ [19.82046666666667, 22.512866666666664]
+📦 各层元素数：[24, 22, 22]
+
+🧩 行优先大画布：H=103591px  利用率≈62.71%  元素数=68
+  ✅ 大画布 TIFF：/Users/lina/respository/find_mask/_out/20251108/out/images/_all_sizes_out/big_rowfill_transparent.tif
+  ✅ 标注预览 PNG（按 SKU 分组）：/Users/lina/respository/find_mask/_out/20251108/out/images/_all_sizes_out/big_rowfill_preview_grouped.png  (H=2129px，流式)
+
+===== 数量对比（严格核对）=====
+表格 count 总和: 68
+磁盘可命中数量: 68
+实际装箱数量  : 68
+✅ 数量一致（表格总数 = 磁盘可命中 = 实际装箱）
+
+✅ Row-Fill 全部完成
