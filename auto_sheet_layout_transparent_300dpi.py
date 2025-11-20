@@ -828,6 +828,7 @@ def main():
         qty_table = base_qty  # 若直接指定文件路径
 
     # === 其他配置 ===
+    back_up_dir = cfg.get("back_up_dir", "/Users/lina/Desktop/shop/neo/yinhua_record")
     csv_encoding = cfg.get("csv_encoding", "utf-8")
     dpi = int(cfg.get("dpi", 300))
     canvas_w_cm = float(cfg.get("canvas_w_cm", 58.0))
@@ -1080,12 +1081,11 @@ def main():
 
     # —— 复制一份 PNG 到记录目录，命名为 日期_高度cm.png —— #
     try:
-        record_dir = Path("/Users/lina/Desktop/shop/neo/yinhua_record").expanduser()
-        record_dir.mkdir(parents=True, exist_ok=True)
+        back_up_dir.mkdir(parents=True, exist_ok=True)
         date_fmt = f"{resolved_date[0:4]}_{resolved_date[4:6]}_{resolved_date[6:8]}"
         height_cm_rounded = int(round(best_H_cm)) if best_H_cm > 0 else int(round(px_to_cm(prev_H, dpi)))
         record_name = f"{date_fmt}_{height_cm_rounded}cm.png"
-        record_path = record_dir / record_name
+        record_path = back_up_dir / record_name
         shutil.copy2(annot_png, record_path)
         log(f"  ✅ 记录 PNG 复制到：{record_path}")
     except Exception as e:

@@ -1,22 +1,134 @@
 🚀 启动：加载配置完成
-{"base_root": "../find_mask/_out", "base_qty": "../find_mask/_out", "resolved_date": "20251109", "root_dir": "../find_mask/_out/20251109/out/images", "qty_table": "../find_mask/_out/20251109/out/finded_handles.xlsx", "dpi": 300, "canvas_w_cm": 58.0, "margin_mm": 2.0, "gutter_mm(pack)": 2.0, "allow_rotate": true, "preview_w_px": 300, "preview_gutter_mm": 2.0, "random_restarts": 10, "height_search_iters": 12, "strategies": ["area_desc", "maxside_desc", "height_desc", "width_desc", "shortside_desc", "name", "none"], "try_no_rotate": true, "shrink_scales": [1.0, 0.98, 0.97, 0.96]}
+{"base_root": "../find_mask/_out", "base_qty": "../find_mask/_out", "resolved_date": "20251111", "root_dir": "../find_mask/_out/20251111/out/images", "qty_table": "../find_mask/_out/20251111/out/finded_handles.xlsx", "dpi": 300, "canvas_w_cm": 58.0, "margin_mm": 2.0, "gutter_mm(pack)": 2.0, "allow_rotate": true, "preview_w_px": 300, "preview_gutter_mm": 2.0, "random_restarts": 10, "height_search_iters": 12, "strategies": ["area_desc", "maxside_desc", "height_desc", "width_desc", "shortside_desc", "name", "none"], "try_no_rotate": true, "shrink_scales": [1.0, 0.98, 0.97, 0.96]}
 📏 画布：58.0cm → 6850px @ 300DPI; margin=2.0mm; gutter(pack)=2.0mm(24px)
-🧾 正在读取数量表文件: ../find_mask/_out/20251109/out/finded_handles.xlsx (suffix='.xlsx')
+🧾 正在读取数量表文件: ../find_mask/_out/20251111/out/finded_handles.xlsx (suffix='.xlsx')
 🧾 数量表键列使用：Handle（候选顺序：Handle » SKU » 其他别名，当前选择=handle）
-🔍 数量表预览前8：[{'sku': 'ne00310', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00310-1', 'size_key': '13*5', 'count': 1}, {'sku': 'ne00448', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00448', 'size_key': 'w34', 'count': 1}, {'sku': 'ne00450', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00518', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00518', 'size_key': 'w34', 'count': 1}, {'sku': 'ne00630', 'size_key': 'w20', 'count': 1}]
-📄 数量表：49 行（sku+size 聚合），count 总和 = 68
+🔍 数量表预览前8：[{'sku': 'ne00326', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00392', 'size_key': 'w22', 'count': 1}, {'sku': 'ne00429', 'size_key': 'w34', 'count': 1}, {'sku': 'ne00442', 'size_key': 'w20', 'count': 1}, {'sku': 'ne00669', 'size_key': 'w20', 'count': 1}, {'sku': 'ne25042818', 'size_key': 'w20', 'count': 1}, {'sku': 'ne25052113', 'size_key': 'w20', 'count': 1}, {'sku': 'ne250623005', 'size_key': 'w20', 'count': 1}]
+📄 数量表：28 行（sku+size 聚合），count 总和 = 33
 
-📂 目录: 13*5 → 规范=13*5 模式=fixed w=13.0 h=5.0
-    ↪ 固定尺寸定向：13*5  原比=4.2991  候选比(WxH=2.5973, HxW=0.3850) → 选择 WxH  误差(1.7018/3.9140)
-  ✅ NE00310-1  size=13*5  count=1  target=1535x591px (13×5cm)
+📂 目录: h24 → 规范=h24 模式=h w=None h=24.0
+  ✅ NE25071719  size=h24  count=1  target=2452x2835px (20.8×24cm)
+  ✅ NE25071740  size=h24  count=4  target=2699x2835px (22.9×24cm)
 
-📂 目录: h20 → 规范=h20 模式=h w=None h=20.0
-  ✅ NE2504180131  size=h20  count=1  target=1991x2362px (16.9×20cm)
-
-📂 目录: h22 → 规范=h22 模式=h w=None h=22.0
-  ✅ NE250623010  size=h22  count=1  target=1880x2598px (15.9×22cm)
-  ✅ NE25062436  size=h22  count=1  target=2225x2598px (18.8×22cm)
-  ✅ NE250901011  size=h22  count=1  target=2068x2598px (17.5×22cm)
+📂 目录: h25 → 规范=h25 模式=h w=None h=25.0
+  ✅ NE25071737  size=h25  count=1  target=2501x2953px (21.2×25cm)
 
 📂 目录: h26 → 规范=h26 模式=h w=None h=26.0
-  ✅ NE25040603  size=h26  count=1  target=2600x3071px (22×26cm)
+  ✅ NE25071719  size=h26  count=2  target=2656x3071px (22.5×26cm)
+
+📂 目录: h34 → 规范=h34 模式=h w=None h=34.0
+  ✅ NE25080703  size=h34  count=1  target=3512x4016px (29.7×34cm)
+  ✅ NE25080716  size=h34  count=1  target=3385x4016px (28.7×34cm)
+
+📂 目录: w18 → 规范=w18 模式=w w=18.0 h=None
+  ✅ NE250902029  size=w18  count=1  target=2126x2283px (18×19.3cm)
+
+📂 目录: w20 → 规范=w20 模式=w w=20.0 h=None
+  ✅ NE00326  size=w20  count=1  target=2362x1755px (20×14.9cm)
+  ✅ NE00442  size=w20  count=1  target=2362x1680px (20×14.2cm)
+  ✅ NE00669  size=w20  count=1  target=2362x1588px (20×13.4cm)
+  ✅ NE25042818  size=w20  count=1  target=2362x2878px (20×24.4cm)
+  ✅ NE25052113  size=w20  count=1  target=2362x2952px (20×25cm)
+  ✅ NE250623005  size=w20  count=1  target=2362x3011px (20×25.5cm)
+  ✅ NE25071708  size=w20  count=1  target=2362x1984px (20×16.8cm)
+  ✅ NE25071735  size=w20  count=1  target=2362x2808px (20×23.8cm)
+  ✅ NE250827023  size=w20  count=1  target=2362x2146px (20×18.2cm)
+  ✅ NE250827063  size=w20  count=1  target=2362x2146px (20×18.2cm)
+  ✅ NE250902015  size=w20  count=1  target=2362x2624px (20×22.2cm)
+  ✅ NE250902045  size=w20  count=1  target=2362x2530px (20×21.4cm)
+  ✅ NE250902065  size=w20  count=1  target=2362x2467px (20×20.9cm)
+
+📂 目录: w22 → 规范=w22 模式=w w=22.0 h=None
+  ✅ NE00392  size=w22  count=1  target=2598x3830px (22×32.4cm)
+  ✅ NE250902037  size=w22  count=1  target=2598x1496px (22×12.7cm)
+  ✅ NE250902040  size=w22  count=2  target=2598x1939px (22×16.4cm)
+  ✅ NE250902041  size=w22  count=1  target=2598x1316px (22×11.1cm)
+
+📂 目录: w25 → 规范=w25 模式=w w=25.0 h=None
+  ✅ NE25071739  size=w25  count=1  target=2953x2371px (25×20.1cm)
+
+📂 目录: w28 → 规范=w28 模式=w w=28.0 h=None
+  ✅ NE25071708  size=w28  count=1  target=3307x2778px (28×23.5cm)
+
+📂 目录: w34 → 规范=w34 模式=w w=34.0 h=None
+  ✅ NE00429  size=w34  count=1  target=4016x4087px (34×34.6cm)
+  ✅ NE250827063  size=w34  count=1  target=4016x3649px (34×30.9cm)
+
+🧪 开始多 scale 装箱尝试（带 shrink 逻辑）
+
+🔁 尝试 pack_scale=1.0 ...
+🔎 高度搜索区间：LB=36043px  UB0=39030px  pack_scale=1.0
+  ❌ mid=37536 FAIL → lo=37537
+  ❌ mid=38283 FAIL → lo=38284
+  ❌ mid=38657 FAIL → lo=38658
+  ✅ mid=38844 OK → hi=38844 | rot/maxrects/area_desc | util≈91.17%
+  ❌ mid=38751 FAIL → lo=38752
+  ✅ mid=38798 OK → hi=38798 | rot/maxrects/area_desc | util≈91.28%
+  ❌ mid=38775 FAIL → lo=38776
+  ✅ mid=38787 OK → hi=38787 | rot/maxrects/area_desc | util≈91.31%
+  ❌ mid=38781 FAIL → lo=38782
+  ❌ mid=38784 FAIL → lo=38785
+  ✅ mid=38786 OK → hi=38786 | rot/maxrects/area_desc | util≈91.31%
+  ✅ mid=38785 OK → hi=38785 | rot/maxrects/area_desc | util≈91.31%
+   → 结果：H=38785px，利用率≈91.31%，策略=rot/maxrects/area_desc
+
+🔁 尝试 pack_scale=0.98 ...
+🔎 高度搜索区间：LB=34630px  UB0=37891px  pack_scale=0.98
+  ❌ mid=36260 FAIL → lo=36261
+  ❌ mid=37076 FAIL → lo=37077
+  ❌ mid=37484 FAIL → lo=37485
+  ❌ mid=37688 FAIL → lo=37689
+  ❌ mid=37790 FAIL → lo=37791
+  ❌ mid=37841 FAIL → lo=37842
+  ❌ mid=37866 FAIL → lo=37867
+  ❌ mid=37879 FAIL → lo=37880
+  ❌ mid=37885 FAIL → lo=37886
+  ❌ mid=37888 FAIL → lo=37889
+  ❌ mid=37890 FAIL → lo=37891
+   → 结果：H=37891px，利用率≈89.77%，策略=maxrects_inf
+
+🔁 尝试 pack_scale=0.97 ...
+🔎 高度搜索区间：LB=33934px  UB0=37068px  pack_scale=0.97
+  ❌ mid=35501 FAIL → lo=35502
+  ❌ mid=36285 FAIL → lo=36286
+  ❌ mid=36677 FAIL → lo=36678
+  ❌ mid=36873 FAIL → lo=36874
+  ❌ mid=36971 FAIL → lo=36972
+  ❌ mid=37020 FAIL → lo=37021
+  ❌ mid=37044 FAIL → lo=37045
+  ❌ mid=37056 FAIL → lo=37057
+  ❌ mid=37062 FAIL → lo=37063
+  ❌ mid=37065 FAIL → lo=37066
+  ❌ mid=37067 FAIL → lo=37068
+   → 结果：H=37068px，利用率≈89.90%，策略=maxrects_inf
+
+🔁 尝试 pack_scale=0.96 ...
+🔎 高度搜索区间：LB=33248px  UB0=35434px  pack_scale=0.96
+  ❌ mid=34341 FAIL → lo=34342
+  ❌ mid=34888 FAIL → lo=34889
+  ❌ mid=35161 FAIL → lo=35162
+  ❌ mid=35298 FAIL → lo=35299
+  ❌ mid=35366 FAIL → lo=35367
+  ❌ mid=35400 FAIL → lo=35401
+  ❌ mid=35417 FAIL → lo=35418
+  ❌ mid=35426 FAIL → lo=35427
+  ❌ mid=35430 FAIL → lo=35431
+  ❌ mid=35432 FAIL → lo=35433
+  ❌ mid=35433 FAIL → lo=35434
+   → 结果：H=35434px，利用率≈92.13%，策略=maxrects_inf
+
+🧩 最终采用方案：H=35434px ≈ 300.0cm  利用率≈92.13%  策略=maxrects_inf  旋转=True  scale=0.96
+    高度区间：LB=33248  UB0=35434
+  ✅ 大画布 TIFF：../find_mask/_out/20251111/out/images/_all_sizes_out/big_packed_transparent.tif
+  ✅ 标注预览 PNG（按 SKU 分组）：../find_mask/_out/20251111/out/images/_all_sizes_out/big_preview_grouped.png  (H=1029px，流式)
+  ⚠️ 记录 PNG 复制失败：'str' object has no attribute 'mkdir'
+
+===== 数量对比（严格核对）=====
+表格 count 总和: 33
+磁盘可命中数量: 33
+实际装箱数量  : 33
+✅ 数量一致（表格总数 = 磁盘可命中 = 实际装箱）
+
+📐 最终大画布高度 ≈ 300.0 cm （固定宽度 58.0 cm）
+
+✅ 全部完成
